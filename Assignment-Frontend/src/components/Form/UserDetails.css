@@ -1,0 +1,29 @@
+.name{
+    display: flex;
+    justify-content: center;
+}
+
+.name h4{
+    margin-right: 8px;
+}
+
+.otp-field {
+    width: 38px;
+    margin-right: 10px;
+    padding-left: 12px;
+    height: 40px;
+  }
+.otp_container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn_div button:nth-child(2){
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 480px) {
+    .otp_container{
+        width: 70%;
+    }
+  }
